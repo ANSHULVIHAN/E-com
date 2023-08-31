@@ -1,0 +1,82 @@
+/* login.css */
+
+.App {
+  text-align: center;
+}
+.login-container {
+  /* Add background image and adjust other styling as needed */
+  background-image: url('https://images.pexels.com/photos/270640/pexels-photo-270640.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* login.css */
+
+
+.login-form {
+ 
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px rgba(10, 10,10, 10.1);
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: teal;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+}

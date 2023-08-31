@@ -1,0 +1,64 @@
+/* Shared styles */
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .col-md-3 {
+    flex-basis: 50%;
+    padding: 5px;
+  }
+
+  .search {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: antiquewhite;
+  }
+
+  .filter-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-form input,
+  .filter-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .filter-form button {
+    align-self: flex-end;
+   
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .searchs {
+    text-align: left;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+    color: pink;
+    background-color: whitesmoke;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+
+  .searchs {
+    text-align: left;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+    color: pink;
+    background-color: whitesmoke;
+  }
+}

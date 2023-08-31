@@ -1,0 +1,97 @@
+/* signup.css */
+
+/* General styles for larger screens */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.auth-container {
+  /* Add background image and adjust other styling as needed */
+  background-image: url('https://images.pexels.com/photos/705164/computer-laptop-work-place-camera-705164.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+.social-login {
+  margin-top: 15px;
+}
+
+.social-login button {
+  margin-right: 20px;
+ 
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .auth-container {
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+
+  .register {
+    width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  input,
+  button {
+    width: 100%;
+    
+  }
+}

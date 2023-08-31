@@ -1,0 +1,154 @@
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+}
+.category-header{
+  color: teal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.category-header:hover {
+ cursor: pointer;
+  color: pink; 
+}
+
+.desktop-nav-links li a {
+  font-family: 'Courier New', Courier, monospace;
+  color: pink; 
+  text-decoration: none;
+
+}
+.mobile-nav-links li a {
+  color: pink;
+  text-decoration: none; 
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  color: pink;
+}
+
+.menu-icon,
+.close-icon {
+  cursor: pointer;
+  color: pink;
+}
+
+.sidebar {
+  width: 250px; 
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100%;
+  background-color: teal; 
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+  color: pink;
+}
+
+.close-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #333; 
+
+  
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.close-icon:hover {
+  background-color: #333; 
+  color: #fff; 
+}
+
+
+@media (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+   
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+
+
+.desktop-menu {
+  display: none;
+  padding: 10px 0;
+}
+
+.desktop-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.desktop-menu li {
+  margin-right: 20px;
+}
+
+
+.desktop-menu {
+  display: none;
+  padding: 10px 20px;
+}
+
+.desktop-menu ul {
+  list-style: none;
+  display: flex; 
+  padding: 0;
+}
+
+.desktop-menu li {
+  margin-right: 20px;
+}
+
+
+@media (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
